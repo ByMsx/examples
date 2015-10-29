@@ -7,6 +7,8 @@
     "test": "test"
   },
   "scripts": {
+    "clean": "rm -rf reports || true",
+    "pretest": "mkdir reports || true",
     "test": "mocha --reporter xunit > ./reports/xunit.xml || true"
   },
   "repository": {
