@@ -14,9 +14,9 @@ describe("Math module", function() {
 		});
 	});
 	it("#mul", function() {
-		expect(Multi.umnoj(10, 5)).to.equal(50);
+		expect(math.mul(10, 5)).to.equal(50);
 	});
 	it("#div", function() {
-		expect(math.delen(81, 9)).to.equal(9);
+		expect(math.div(81, 9)).to.equal(9);
 	});
 });
