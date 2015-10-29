@@ -13,4 +13,10 @@ describe("Math module", function() {
 			done();
 		});
 	});
+	it("#umnoj", function() {
+		expect(Multi.umnoj(10, 5)).to.equal(50);
+	});
+	it("#delen", function() {
+		expect(math.delen(81, 9)).to.equal(9);
+	});
 });
