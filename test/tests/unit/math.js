@@ -13,4 +13,10 @@ describe("Math module", function() {
 			done();
 		});
 	});
+	it("#mul", function() {
+		expect(math.mul(2,3)).to.equal(6);
+	});
+	it("#div", function() {
+		expect(math.div(6,3)).to.equal(2);
+	});
 });
