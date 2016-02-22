@@ -14,9 +14,9 @@ describe("Math module", function() {
 		});
 	});
 	it("#mltplic", function() {
-		expect(math.sum(2, 3)).to.equal(6);
+		expect(math.mltplic(2, 3)).to.equal(6);
 	});
 	it("#div", function() {
-		expect(math.sum(6, 3)).to.equal(2);
+		expect(math.div(6, 3)).to.equal(2);
 	});
 });
