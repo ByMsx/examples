@@ -13,4 +13,10 @@ describe("Math module", function() {
 			done();
 		});
 	});
+	it("#pow", function() {
+		expect(math.sum(4, 2)).to.equal(16);
+	});
+	it("#sqrt", function() {
+		expect(math.sub(4)).to.equal(2);
+	});
 });
